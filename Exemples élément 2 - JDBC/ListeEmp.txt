@@ -1,0 +1,3 @@
+13	Kamar	32	Nador
+14	Hicham	36	Oujda
+15	Tarik	28	Ouazzane

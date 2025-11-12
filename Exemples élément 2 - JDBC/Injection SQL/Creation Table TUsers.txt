@@ -1,0 +1,10 @@
+ CREATE TABLE IF NOT EXISTS TUsers
+    -> (ID INTEGER NOT NULL AUTO_INCREMENT,
+    -> Login VARCHAR(20),
+    -> Password VARCHAR(20),
+    -> ConnectionNbr INTEGER DEFAULT 0,
+    -> PRIMARY KEY ( ID ));
+
+INSERT INTO TUsers (Login, Password) VALUES ('Admin', 'FST_23');
+INSERT INTO TUsers (Login, Password) VALUES ('AgScol1', 'Ag1_FST_23');
+INSERT INTO TUsers (Login, Password) VALUES ('AgApog1', 'FS.T_SMI_20');
