@@ -1,0 +1,4 @@
+1234;SAMI;a.sami@etd.uae.ac.ma;12
+
+9876;HARRAK;f.harak@etd.uae.ac.ma;15
+6543;Jamal;j.siadi@etd.uae.ac.ma;14.0
