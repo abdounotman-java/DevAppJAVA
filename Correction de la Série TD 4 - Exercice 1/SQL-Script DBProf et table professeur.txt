@@ -1,0 +1,4 @@
+CREATE DATABASE IF NOT EXISTS DBProf;
+
+CREATE TABLE IF NOT EXISTS professeur (idprof VARCHAR(10) NOT NULL, nomprof VARCHAR(30),  genreprof VARCHAR(1),  emailprof VARCHAR(20), dateprof VARCHAR(10),  gradeprof VARCHAR(4), iddep VARCHAR(20), PRIMARY KEY ( idprof ));
+ 
