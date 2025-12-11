@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="337.0" prefWidth="464.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.authentificationjavafx.HelloController">
+   <children>
+      <Label layoutX="204.0" layoutY="53.0" text="Login  :" textFill="#4403dd" wrapText="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="204.0" layoutY="101.0" text="Password  :" textFill="#e01035">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtlog" layoutX="283.0" layoutY="49.0" />
+      <Button fx:id="btncon" layoutX="283.0" layoutY="150.0" mnemonicParsing="false" onAction="#connecter" text="Connexion" />
+      <Button fx:id="btnannul" layoutX="374.0" layoutY="150.0" mnemonicParsing="false" onAction="#annuler" text="Annuler" />
+      <PasswordField fx:id="txtpass" layoutX="283.0" layoutY="97.0" />
+      <Label fx:id="labelres" layoutX="136.0" layoutY="216.0" prefHeight="27.0" prefWidth="327.0" textFill="#fa0c0c">
+         <font>
+            <Font name="System Bold" size="17.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="173.0" fitWidth="149.0" layoutX="32.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@fstlogo.png" />
+         </image>
+      </ImageView>
+   </children>
+   <opaqueInsets>
+      <Insets left="2.0" right="2.0" top="2.0" />
+   </opaqueInsets>
+</AnchorPane>

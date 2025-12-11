@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="401.0" prefWidth="599.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.grhtd3.controller.AboutController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="36.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/fstlogo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="236.0" layoutY="83.0" prefHeight="197.0" prefWidth="343.0" text="Application développée en JavaFX, pour la gestion des ressources humaines de la faculté des sciences à Tétouan. Cette application permettra la gestion des professreus et les départements de la faculté" textAlignment="JUSTIFY" textFill="#1f086b" wrapText="true">
+         <font>
+            <Font name="System Bold" size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

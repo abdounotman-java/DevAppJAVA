@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SeparatorMenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="370.0" prefWidth="523.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.grhtd3.controller.Accueil">
+   <children>
+      <MenuBar layoutY="1.0" prefHeight="25.0" prefWidth="530.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="Gestion Professeurs">
+               <items>
+                  <MenuItem fx:id="idmenuprofcrud" mnemonicParsing="false" onAction="#professeurcrud" text="Professeur en CRUD" />
+                  <MenuItem mnemonicParsing="false" text="Recruter" />
+                  <MenuItem mnemonicParsing="false" text="Modifier" />
+                  <MenuItem mnemonicParsing="false" text="Lister" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem fx:id="idexit" mnemonicParsing="false" onAction="#sedeconnecter" text="Sé déconnecter" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Gestion départements">
+               <items>
+                  <MenuItem fx:id="iddepinfo" mnemonicParsing="false" onAction="#deprtamentinformatique" text="Département Informatique" />
+                  <MenuItem fx:id="iddepmath" mnemonicParsing="false" onAction="#departementmathematique" text="Département Mathèmatique" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="À-propos">
+               <items>
+                  <MenuItem fx:id="idabout" mnemonicParsing="false" onAction="#aboutgrh" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <ImageView fitHeight="367.0" fitWidth="647.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/fs-tetouan.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
